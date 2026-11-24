@@ -20,6 +20,13 @@ A $19 funeral service for dead Tamagotchis and deleted game saves. The customers
 node main.ts
 ```
 
+Dry-run the gate without writing anything:
+
+```sh
+node main.ts --check
+# pitch OK: 139 characters
+```
+
 The output is one line of UTF-8 text, 139 characters, no trailing newline — inside the competition gate of 1–200 characters, not only whitespace.
 
 ## License
